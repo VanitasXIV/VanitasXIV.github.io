@@ -405,6 +405,7 @@ p {
   bottom: -70px;
   letter-spacing: -10px;
   z-index: -999;
+  opacity: 20%;
 }
 
 .fake-brainstormwall {
