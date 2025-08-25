@@ -211,6 +211,7 @@ a {
   letter-spacing: -3px;
   color: var(--yellow);
   position: relative;
+  padding: 10px 0px 0px 0px;
 }
 
 .text-zone h1::before {
