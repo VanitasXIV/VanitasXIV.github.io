@@ -29,6 +29,11 @@ body {
   overflow-x: hidden;
 }
 
+body, html{
+  max-width: 100vw;
+  overflow-x: hidden ;
+}
+
 .fake-big {
   display: block;
   font-size: 10rem;
