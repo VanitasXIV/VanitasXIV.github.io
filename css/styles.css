@@ -861,3 +861,15 @@ textarea:hover {
     bottom: 100px;
   }
 }
+
+@media screen and (min-width: 375px) {
+  ::after{
+     left: 290px;
+  }
+
+  .pink-text::after{
+    top: 40px;
+  }
+
+
+}
