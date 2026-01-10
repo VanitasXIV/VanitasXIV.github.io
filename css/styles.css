@@ -697,6 +697,57 @@ textarea:hover {
   z-index: -998;
 }
 
+/* media section for mobile screen */
+@media screen and (max-width: 768px) {
+  .text-zone h1::before {
+    left: 0;
+    top: -60px;
+  }
+
+  .text-zone h1::after {
+    right: 0;
+    bottom: -35px; 
+  }
+
+  .pink-text::before {
+    left: 0;
+  }
+
+  .pink-text::after {
+    right: 0;
+    top: auto; 
+    bottom: -30px; 
+  }
+}
+
+
+/* media section for tablet screen */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .text-zone h1 {
+    font-size: 5rem;
+    line-height: 70px;
+    max-width: 90%;
+  }
+
+  .text-zone p, 
+  .text-zone .pink-text {
+    font-size: 1.1rem;
+    margin-top: 30px;
+  }
+
+  .text-zone h1::before {
+    top: -50px;
+    left: -20px;
+    font-size: 1.5rem;
+  }
+
+  .text-zone h1::after {
+    bottom: -45px;
+    right: -40px;
+    font-size: 1.5rem;
+  }
+}
+
 /* media section for bigger screen */
 @media screen and (min-width: 1200px) {
   header {
