@@ -415,18 +415,21 @@ p {
 .fake-brainstormwall ul {
   list-style: none;
   display: flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
   flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: left;
+  width: 100%
 }
 
 .fake-brainstormwall ul li {
   width: 161px;
   height: 160px;
   position: relative;
-  left: 70px;
+  left: 0;
+  
   overflow: hidden;
-  display: list-item;
+  display: block;
 }
 
 .fake-brainstormwall .brainstorm-wall_item {
@@ -728,7 +731,7 @@ textarea:hover {
 
   /* home section */
   #section-home {
-    padding-left: 13rem;
+    padding-left: 11vw;
   }
   .text-zone h1 {
     font-size: 6.3rem;
@@ -750,7 +753,7 @@ textarea:hover {
     bottom: 3.3rem;
   }
   .scroll-down--left {
-    left: 110px;
+    left: 9vw;
     right: auto;
   }
   /*this is the end of home section*/
