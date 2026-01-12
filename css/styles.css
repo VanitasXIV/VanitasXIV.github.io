@@ -162,7 +162,7 @@ a {
 .nav-links a {
   display: block;
   text-align: center;
-  line-height: 2vw;
+  line-height: 2.5vw;
   text-decoration: none;
   color: var(--secondaryColor);
   font-size: 0.8vw;
