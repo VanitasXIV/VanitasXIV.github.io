@@ -36,11 +36,11 @@ body, html{
 
 .fake-big {
   display: block;
-  font-size: 10rem;
+  font-size: 10vw;
   font-weight: bolder;
   position: absolute;
   /* top: -100px; */
-  left: 170px;
+  left: 10vw;
   color: var(--yellow);
   text-shadow: 2px 2px 2px 4px 0 var(--darkestBlue);
   user-select: none;
@@ -149,12 +149,12 @@ a {
   border-radius: 50%;
 }
 .logo span {
-  font-size: 1.7rem;
+  font-size: 1vw;
   color: var(--white);
 }
 .logo-section > span {
-  margin-top: 25px;
-  font-size: 20px;
+  margin-top: 1vw;
+  font-size: 0.8vw;
   font-family: "Rajdhani", serif;
 }
 
@@ -162,9 +162,10 @@ a {
 .nav-links a {
   display: block;
   text-align: center;
-  line-height: 3rem;
+  line-height: 2vw;
   text-decoration: none;
   color: var(--secondaryColor);
+  font-size: 0.8vw;
 }
 .nav-links a:hover {
   color: var(--mainColor);
@@ -768,13 +769,13 @@ textarea:hover {
     min-height: 25vh;
   }
   .logo img {
-    width: 90px;
+    width: 4.7vw;
     height: auto;
   }
 
   .logo-section > span {
     margin-top: 25px;
-    font-size: 15px;
+    font-size: 1vw;
     font-family: "Rajdhani", serif;
   }
   .social-icons {
@@ -782,7 +783,7 @@ textarea:hover {
   }
   .social-icons li {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   /* home section */
@@ -836,12 +837,12 @@ textarea:hover {
   .fake-big-2 {
     font-size: 25rem;
     font-weight: 700;
-    left: 650px;
+    left: 20vw;
     top: -10px;
     opacity: 20%;
   }
   .fake-brainstormwall {
-    padding-left: 8.5rem;
+    padding-left: 10vw;
   }
   .fake-brainstormwall ul li {
     width: 242px;
@@ -851,7 +852,7 @@ textarea:hover {
   /* media query for about section */
   #section-about {
     flex-direction: row;
-    padding-left: 13rem;
+    padding-left: 11vw;
   }
   .text-zone-3 #header {
     width: 500px;
@@ -872,6 +873,7 @@ textarea:hover {
   .section-work-experience .fake-big-2 {
     font-size: 24rem;
     top: -240px;
+    left: 5vw;
   }
   .work-experience {
     margin: 0 0 0 auto;
