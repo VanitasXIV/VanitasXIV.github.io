@@ -719,6 +719,10 @@ textarea:hover {
     top: auto; 
     bottom: -30px; 
   }
+
+  .section-work-experience .fake-big-2{
+    top: -110px;
+  }
 }
 
 
